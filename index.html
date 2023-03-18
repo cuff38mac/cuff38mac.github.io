@@ -52,22 +52,18 @@
     <!--main header-->
     
     <!--end of main header-->
-    <div class="hero">
-      <h1 class="display-4">Hi, my name is Maurice.</h1>
-      <img src="me.jpg" alt="Maurice" />
-      
-    </div>
+    
   <!----Container for page-->
   <div class="container-md shadow-sm p-3 mb-5 m-t-8 rounded bg-dark">
    
-    <div class="container-fluid m-t-5 p-3">
-    <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Hi, my name is Maurice.</h1>
-    <p class="lead"> I currently hold a Bachelors degree in Information Technology from the University of Massachusetts - Lowell. Over the course of my professional, academic, and personal expreiences, I have acquired knowledge and familiarity in various technologies such as Java, HTML, CSS, Spring Boot, Bootstrap, React, and MySQL. I am looking for the opportunity to become a part of a team to grow my skills and learn effective best practices to develop high-quality code that can benefit end-users.</p>
-  </div>
-      </div>
-    </div>
+    <header class="container-fluid m-t-5 p-3">
+         <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Hi, my name is Maurice.</h1>
+                <p class="lead"> I currently hold a Bachelors degree in Information Technology from the University of Massachusetts - Lowell. Over the course of my professional, academic, and personal expreiences, I have acquired knowledge and familiarity in various technologies such as Java, HTML, CSS, Spring Boot, Bootstrap, React, and MySQL. I am looking for the opportunity to become a part of a team to grow my skills and learn effective best practices to develop high-quality code that can benefit end-users.</p>
+            </div>
+        </div>
+    </header>
     
 
     <!-- Content-main 
@@ -84,27 +80,29 @@
 <!--end main-->
 <br/>
 <br/>
-      <div>
-<h1 id="Projects">Projects</h1>
+<!--main-->
+      <main>
+        <section>
+        <h1 id="Projects">Projects</h1>
 
-<div class="card m-3 bg-dark">
-  <div class="row g-0 p-2">
-    <div class="col-md-4">
-      <img src="MusicDemoImage.png" class="img-fluid rounded-start mh-88%">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body bg-dark">
-        <h3 class="card-title">Music Collection List</h3>
-        <p class="card-text text-white"> This project uses Spring Boot and Thymeleaf to display a list of music items. It includes buttons to add, update, and remove records.</p>
-      </div>
-    </div>
-  </div>
-  <div class="card-footer">
+        <div class="card m-3 bg-dark">
+            <div class="row g-0 p-2">
+                <div class="col-md-4">
+                    <img src="MusicDemoImage.png" class="img-fluid rounded-start mh-88%">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body bg-dark">
+                         <h3 class="card-title">Music Collection List</h3>
+                         <p class="card-text text-white"> This project uses Spring Boot and Thymeleaf to display a list of music items. It includes buttons to add, update, and remove records.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
 
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticMusic">
-      Show Demo
-    </button>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticMusic">Show Demo
+                    </button>
+              <button> See on GitHub
     
     <!-- Modal -->
     <div class="modal fade bg-dark" id="staticMusic" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -116,17 +114,17 @@
           </div>
           <div class="modal-body p-3">
          
-<video width="100%" height="100%" autoplay muted controls>
-  <source src="MusicDemo.mp4" type="video/mp4">
+                <video width="100%" height="100%" autoplay muted controls>
+                    <source src="MusicDemo.mp4" type="video/mp4">
 
-</video>
+                    </video>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-    </div>
+     </div>
     </div>
     </div>
     
@@ -172,7 +170,7 @@
     </div>
     </div>
     </div>
-      </div>
+
     
     
     <div class="card m-3 bg-dark">
@@ -218,7 +216,8 @@
     </div>
     </div>
     
-
+</section>
+<section>
 <div class="row ">
   <div class="col m-t-4">
 <h1 id="Other Projects">Other Projects</h1>
@@ -235,14 +234,16 @@
         <p class="card-text text-white">This android application was created using Android Studio and is currently in <a href="https://play.google.com/store/apps/details?id=com.ckfc.app&hl=en_US&gl=US">Google Play store</a>. </p>
       </div>
     </div>
-  </div>
-</div>
-</div>
-</div>
+     </div>
     </div>
+    </div>
+    </div>
+</section>
+</main>
+  <!--end main-->
   
-  
-  </div>
+</div>
+<footer>Designed by Maurice Cuffee</footer>
   <!----end of Container-->
   </body>
 </html>
