@@ -9,14 +9,14 @@
     <link href='https://fonts.googleapis.com/css?family=Old Standard TT' rel='stylesheet'>
   <style>
     body, html {
- 
+  height: 100%;
   margin: 0;
   font-family: Old Standard TT, sans-serif;
 }
 
 .hero-image {
   background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("me-removebg.png");
- 
+  height: 100%;
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -28,16 +28,29 @@
 
 .hero-text {
   text-align: center;
-  position: relative;
+  position: absolute;
+  padding:3%;
   top: 50%;
-  left: 70%;
+  left: 50%;
   transform: translate(-110%, -50%);
   color: white;
 }
     
     footer {
 text-align: center;}
+
+    .head {
+    margin-top:40px;
+    margin-bottom:0%;
+    width:80%;
+    text-align: center;
+    }
     
+    .head h1 {
+    font-size: 3rem;
+    padding:2rem;
+    margin 10px auto;
+    }
     
     
     </style>
@@ -65,13 +78,25 @@ text-align: center;}
   <!--end navigation-->
   <br/>
     <!--main header-->
-     <div class="hero-image">
+    <section class="head">
+     <div class="row">
+     <div class="col-6">
+     	<h1>Hi, my name is Maurice.</h1>
+     </div>
+     <div class="col-6">
+     	<p> Over the course of my professional, academic, and personal expreiences, I have acquired knowledge and familiarity in various programming technologies such as Java, HTML, CSS, Spring Boot, Bootstrap, React, and MySQL. I am looking for the opportunity to become a part of a team to grow my skills and learn effective best practices to develop high-quality code that can benefit end-users. </p>
+     </div>
+     </section>
+     
+     
+     
+     <!--<div class="hero-image">
       <div class="hero-text">
         <h1 class="display-5">Hi, my name is Maurice.</h1>
-                <h5> I currently hold a Bachelors degree in Information Technology from the University of Massachusetts - Lowell. Over the course of my professional, academic, and personal expreiences, I have acquired knowledge and familiarity in various technologies such as Java, HTML, CSS, Spring Boot, Bootstrap, React, and MySQL. I am looking for the opportunity to become a part of a team to grow my skills and learn effective best practices to develop high-quality code that can benefit end-users.</h5>
+                <h6> I currently hold a Bachelors degree in Information Technology from the University of Massachusetts - Lowell. Over the course of my professional, academic, and personal expreiences, I have acquired knowledge and familiarity in various technologies such as Java, HTML, CSS, Spring Boot, Bootstrap, React, and MySQL. I am looking for the opportunity to become a part of a team to grow my skills and learn effective best practices to develop high-quality code that can benefit end-users.</h6>
             
       </div>
-    </div>
+    </div>-->
     <!--end of main header-->
     
   <!----Container for page-->
@@ -299,7 +324,5 @@ text-align: center;}
   <!----end of Container-->
   </body>
 </html>
-
-
 
 
