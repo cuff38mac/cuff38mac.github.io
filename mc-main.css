@@ -4,6 +4,12 @@
   font-family: Old Standard TT, sans-serif;
 }
 
+.main {
+width:80%;
+margin: 20px auto;
+padding: 10px;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("me-removebg.png");
   height: 30%;
