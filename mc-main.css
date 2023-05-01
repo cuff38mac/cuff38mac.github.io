@@ -52,7 +52,7 @@ text-align: center;}
     
     .resume-main {
     margin: 50px;
-    width:100%;
+    width:90%;
     padding:10px;}
 
 .resume-section {
@@ -60,6 +60,7 @@ text-align: center;}
   color: white;
  border-bottom: 3px solid gray;
  margin:30px;
+   padding-bottom: 10px;
  
 }
 
