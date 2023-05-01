@@ -70,69 +70,16 @@ text-align: center;}
   height:200px;
 }
 
-.java-png {
-background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("java.png");
-  height: 30%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  margin:10px auto;
-  font-family: 'Nova Flat'; 
+.png {
+width: 150px;
+   height: 150px;
+   margin:10px auto;
+   padding:5px;
+   
 }
-
-.html-png {
-background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("html css.png");
-  height: 30%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  margin:10px auto;
-  font-family: 'Nova Flat'; 
-}
-
-.wordpress-png {
-background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("wordpress.png");
-  height: 30%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  margin:10px auto;
-  font-family: 'Nova Flat'; 
-}
-
-.bootstrap-png {
-background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("bootstrap.png");
-  height: 30%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  margin:10px auto;
-  font-family: 'Nova Flat'; 
-}
-
-.react-png {
-background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("react.png");
-  height: 30%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  margin:10px auto;
-  font-family: 'Nova Flat'; 
-
-.spring-png {
-background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("spring-boot.png");
-  height: 30%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  margin:10px auto;
-  font-family: 'Nova Flat'; 
+.png img {
+height:100%;
+width: 100%;
 }
 
 @media (max-width: 700px) {
