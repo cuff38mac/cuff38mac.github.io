@@ -60,6 +60,36 @@ text-align: center;}
   height:200px;
 }
 
+.java-png {
+background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("java.png");
+ background-size: contain;
+}
+
+.html-png {
+background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("html css.png");
+ background-size: contain;
+}
+
+.wordpress-png {
+background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("wordpress.png");
+ background-size: contain;
+}
+
+.bootstrap-png {
+background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("bootstrap.png");
+ background-size: contain;
+}
+
+.react-png {
+background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("react.png");
+ background-size: contain;
+}
+
+.spring-png {
+background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("spring-boot.png");
+ background-size: contain;
+}
+
 @media (max-width: 700px) {
   .resume-image-section {
     flex-direction: column;
