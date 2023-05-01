@@ -1,4 +1,6 @@
- body, html {
+
+   
+    body, html {
   height: 100%;
   margin: 0;
   font-family: Old Standard TT, sans-serif;
@@ -47,12 +49,17 @@ text-align: center;}
     padding:2rem;
     margin 10px auto;
     }
+    
+    .resume-main {
+    margin: 50px;
+    width:100%;
+    padding:10px;}
 
 .resume-section {
   width:100%;
   color: white;
  border-bottom: 3px solid gray;
- margin-bottom:10px;
+ margin:30px;
  
 }
 
@@ -99,6 +106,10 @@ background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("
     flex-direction: column;
   }
 }
+    
+    
+   
+
     
     
    
