@@ -66,39 +66,43 @@ text-align: center;}
 .resume-image-section {
   display: flex;
   flex-direction: row;
-  align-content: center;
-  flex-wrap: wrap;
   height:200px;
 }
 
 .java-png {
 background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("java.png");
  background-size: contain;
+   margin: 0px 10px;
 }
 
 .html-png {
 background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("html css.png");
  background-size: contain;
+    margin: 0px 10px;
 }
 
 .wordpress-png {
 background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("wordpress.png");
  background-size: contain;
+    margin: 0px 10px;
 }
 
 .bootstrap-png {
 background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("bootstrap.png");
  background-size: contain;
+    margin: 0px 10px;
 }
 
 .react-png {
 background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("react.png");
  background-size: contain;
+    margin: 0px 10px;
 }
 
 .spring-png {
 background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("spring-boot.png");
  background-size: contain;
+    margin: 0px 10px;
 }
 
 @media (max-width: 700px) {
