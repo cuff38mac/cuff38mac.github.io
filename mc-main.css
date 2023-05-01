@@ -72,38 +72,67 @@ text-align: center;}
 
 .java-png {
 background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("java.png");
- background-size: contain;
-   margin: 0px 10px;
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin:10px auto;
+  font-family: 'Nova Flat'; 
 }
 
 .html-png {
 background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("html css.png");
- background-size: contain;
-    margin: 0px 10px;
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin:10px auto;
+  font-family: 'Nova Flat'; 
 }
 
 .wordpress-png {
 background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("wordpress.png");
- background-size: contain;
-    margin: 0px 10px;
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin:10px auto;
+  font-family: 'Nova Flat'; 
 }
 
 .bootstrap-png {
 background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("bootstrap.png");
- background-size: contain;
-    margin: 0px 10px;
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin:10px auto;
+  font-family: 'Nova Flat'; 
 }
 
 .react-png {
 background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("react.png");
- background-size: contain;
-    margin: 0px 10px;
-}
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin:10px auto;
+  font-family: 'Nova Flat'; 
 
 .spring-png {
 background-image: linear-gradient(rgba(6, 6, 6, 0.5), rgba(4, 4, 4, 0.5)), url("spring-boot.png");
- background-size: contain;
-    margin: 0px 10px;
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin:10px auto;
+  font-family: 'Nova Flat'; 
 }
 
 @media (max-width: 700px) {
